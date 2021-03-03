@@ -22,31 +22,8 @@ Install those updates.
 sudo apt upgrade
 ```
 
-## Terminal navigation
+[Terminal Navigation](/terminal-navigation.md)
 
-Where are we?
+## UI Folder Navigation
 
-``` bash
-# I always thought this looked "password", but nope
-# it's "present working directory."
-pwd
-```
-
-What's in our folder?
-
-``` bash
-ls
-```
-
-Who am I?
-
-``` bash
-whoami
-```
-
-What's my machine name?
-
-``` bash
-hostname
-```
-
+Open the folder explorer
