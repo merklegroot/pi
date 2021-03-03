@@ -5,6 +5,7 @@ Where are we?
 ``` bash
 # I always thought this looked "password", but nope
 # it's "print working directory"
+pwd
 ```
 
 What's in our folder?
