@@ -24,6 +24,6 @@ sudo apt upgrade
 
 [Terminal Navigation](/terminal-navigation.md)
 
-## UI Folder Navigation
+## Python
 
-Open the folder explorer
+[Small Python Project](/python.md)
