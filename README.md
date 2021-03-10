@@ -27,3 +27,7 @@ sudo apt upgrade
 ## Python
 
 [Small Python Project](/python.md)
+
+## Lights
+
+[Lights](/lights.md)
