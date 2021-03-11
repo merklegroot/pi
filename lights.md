@@ -3,6 +3,7 @@
 The Pi 400 the standard RasperryPi 40-pin header.  
 To access it, you'll need to remove the black rubber tab on the back.  
 
+<https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png>
 ![](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
 
 ## Turning on an LED
@@ -29,9 +30,9 @@ GPIO 26 -> LED -> Resistor -> GND
 import RPi.GPIO as GPIO
 from time import sleep
 
-pin = 26
+pin = 7
 
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 GPIO.setup(pin, GPIO.OUT, initial=GPIO.LOW) 
 
 while True:
