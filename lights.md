@@ -20,10 +20,10 @@ Try creating the following circuit.
 
 Now let's use Python to get that LED to blink.  
 First off, we'll want to switch the source of the circuit to start with a GPIO pin instead of the direct 5V pin.
-For this example, let's go with GPIO 26 (one over from the bottom right).
+For this example, let's go with GPIO 7.
 
 ``` text
-GPIO 26 -> LED -> Resistor -> GND
+GPIO 7 -> LED -> Resistor -> GND
 ```
 
 ``` python
